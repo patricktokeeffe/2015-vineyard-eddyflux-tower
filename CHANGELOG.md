@@ -1,6 +1,16 @@
 Change Log for GHG Monitoring Tower Program
 ===========================================
 
+next release
+------------
+
+### Enhancements
+
+* Add telemetry reporting via HTTP to ScadaBR instance for most things in the
+  `stats5` table. A few variables are reported as grab-samples instead of
+  averages to avoid significant back-end modifications.
+
+
 v1.2 (2015-07-28)
 -----------------
 
