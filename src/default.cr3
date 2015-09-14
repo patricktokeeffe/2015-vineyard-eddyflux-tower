@@ -1274,6 +1274,8 @@ Sub send_telemetry_self_report()
   msg &= "&skipped_1hz_scans=" & skipped_1hz_scans
   msg &= "&skipped_5s_scans=" & skipped_5s_scans
   msg &= "&watchdog_errors=" & watchdog_errors
+  msg &= "&panel_tmpr=" & panel_tmpr
+  msg &= "&batt_volt=" & batt_volt
   send_scadabr_data(msg)
 EndSub
 
