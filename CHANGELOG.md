@@ -1,6 +1,15 @@
 Change Log for GHG Monitoring Tower Program
 ===========================================
 
+v1.2.2 (2015-09-14)
+-------------------
+
+### Issues Fixed
+
+* Report correct value for IRGA CO2 signal. Had been reporting untracked value,
+  standard deviation of CO2 mass concentration, mistakenly instead.
+
+
 v1.2.1 (2015-09-14)
 -------------------
 
